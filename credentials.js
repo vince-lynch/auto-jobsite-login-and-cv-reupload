@@ -17,10 +17,7 @@ function askBackgroundToOpenJobSiteTabs(e) {
 function initMessaging() {
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
-      if(request.facebookConnected === true){
-        console.log('user has connected their facebook', request);
-        document.getElementById('connected-facebook').textContent = 'True';
-      }
+        console.log('message from background.js', request);
     }
   );
 }
