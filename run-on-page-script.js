@@ -31,5 +31,12 @@ $( document ).ready(function() {
 		},2000)
 	}
 	
+	if(window.location.href.indexOf('reed') > 1){
+		console.log('on REED.co.uk stimulating click')
+		setTimeout(function(){
+			$('.btn.btn-primary.save-changes').trigger( "click" );
+		},5000)
+	}
+	
 });
 

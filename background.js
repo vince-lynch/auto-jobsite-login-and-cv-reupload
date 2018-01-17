@@ -28,9 +28,10 @@ function closeIn(url, secs){
 
 function tellTabsToVisit(){
 	openTabs([
-		'https://www.totaljobs.com/Authenticated/Profile.aspx#cv',
-		'https://www.jobsite.co.uk/cgi-bin/myjobsite_cv_management.cgi?src=qlCvAndletters',
-		'https://www.cv-library.co.uk/candidate/modify-account',
+		'https://www.reed.co.uk/account#&card=personal-statement-edit',
+		//'https://www.totaljobs.com/Authenticated/Profile.aspx#cv',
+		//'https://www.jobsite.co.uk/cgi-bin/myjobsite_cv_management.cgi?src=qlCvAndletters',
+		//'https://www.cv-library.co.uk/candidate/modify-account',
 		//'https://my.indeed.com/resume' // cant currently get jQuery click to work on indeed
 	])
 }

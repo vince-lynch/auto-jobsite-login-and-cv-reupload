@@ -16,7 +16,7 @@
   },
   "content_scripts": [    //<-------------------------------------------------------------Content Script details in manifest
     { "run_at" :"document_end",
-      "matches": ["https://www.totaljobs.com/*", "https://www.jobsite.co.uk/*", "https://www.cv-library.co.uk/*", "https://my.indeed.com/*"],
+      "matches": ["https://www.reed.co.uk/*","https://www.totaljobs.com/*", "https://www.jobsite.co.uk/*", "https://www.cv-library.co.uk/*", "https://my.indeed.com/*"],
       "js": ["jquery-1.11.3.min.js","run-on-page-script.js"]
     } ],
   //"run_at" tells when to load the javascript,
